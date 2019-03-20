@@ -31,7 +31,7 @@
         win++;
         guessesLeft = 9;
         GuessesSoFar.length = 0;
-      } else if (guessesLeft === 0) {
+      } else if (guessesLeft === 1) {
         losses++;
         guessesLeft = 9;
         GuessesSoFar.length = 0;
